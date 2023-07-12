@@ -1,8 +1,7 @@
  
 import pickle
 import streamlit as st
-import joblib
-import pandas as pd
+
 
 # loading the trained model
 Model = joblib.load("Model.pkl0")
